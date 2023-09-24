@@ -14,7 +14,11 @@ export default function DailyForecast() {
           Chimenem Esther Akah
         </a>
         , is{" "}
-        <a href="" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/chimenemakah/my-react-weather-app-refined"
+          target="_blank"
+          rel="noreferrer"
+        >
           open-sourced on GitHub
         </a>{" "}
         and <a href="">hosted on Netlify</a>.
