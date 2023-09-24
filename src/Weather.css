@@ -1,0 +1,101 @@
+:root {
+  --primary-color: #1acbeb;
+  --accent-color: #000000;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  color: var(--primary-color);
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 0px auto;
+}
+
+.search-engine {
+  margin-bottom: 10px;
+}
+
+.current-city {
+  font-size: 46px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.weather-description {
+  font-size: 14px;
+  list-style: none;
+  line-height: 1.5;
+  opacity: 0.7;
+  padding: 0;
+}
+
+.accent {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.weather-icon {
+  width: 130px;
+}
+
+.temp {
+  position: relative;
+  top: 18px;
+  right: 5px;
+}
+
+.temp-value {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.unit {
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  bottom: 34px;
+}
+
+@media (max-width: 576px) {
+  .form-control,
+  .search-button {
+    font-size: 10px;
+  }
+
+  .current-city,
+  .temp-value {
+    font-size: 24px;
+  }
+
+  .temp {
+    top: 5px;
+  }
+
+  .unit {
+    font-size: 10px;
+    bottom: 10px;
+  }
+
+  .weather-description {
+    font-size: 10px;
+  }
+
+  .weather-icon {
+    width: 80px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+}
