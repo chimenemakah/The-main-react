@@ -21,7 +21,6 @@ export default function DailyForecast() {
         >
           open-sourced on GitHub
         </a>{" "}
-        and <a href="">hosted on Netlify</a>.
       </div>
     </footer>
   );
