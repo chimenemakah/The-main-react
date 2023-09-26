@@ -21,6 +21,14 @@ export default function DailyForecast() {
         >
           open-sourced on GitHub
         </a>{" "}
+        "and"{" "}
+        <a
+          href="hosted on https://master--coruscating-concha-a12b68.netlify.app/"
+          target="blank"
+          rel="noreferrer"
+        >
+          Hosted on Netlify
+        </a>
       </div>
     </footer>
   );
